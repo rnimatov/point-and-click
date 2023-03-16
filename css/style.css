@@ -12,8 +12,28 @@ body {
 }
  
 #gameWindow {
+    position: relative;
     width: 800px;
     height: 560px;
     grid-column-start: 2;
     background-color: blue;
+}
+
+.background {
+    position: absolute;
+    z-index: 0;
+}
+
+.character {
+    position: absolute;
+    z-index: 100;
+}  
+
+.foreground {
+    position: absolute;
+    z-index: 1000;
+}
+
+#titleMap {
+    
 }
