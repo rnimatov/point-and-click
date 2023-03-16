@@ -2,11 +2,13 @@ body {
     background-color: black;
     color: floralwhite;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto 800px auto;
+    grid-template-rows: auto auto;
 }
 
 #mainTitle {
     grid-column-start: 2;
+    text-align: center;
 }
  
 #gameWindow {
