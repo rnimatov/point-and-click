@@ -1,4 +1,17 @@
 body {
     background-color: black;
     color: floralwhite;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#mainTitle {
+    grid-column-start: 2;
+}
+ 
+#gameWindow {
+    width: 800px;
+    height: 560px;
+    grid-column-start: 2;
+    background-color: blue;
 }
