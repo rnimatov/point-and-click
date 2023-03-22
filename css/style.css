@@ -4,9 +4,11 @@ body {
     display: grid;
     grid-template-columns: auto 800px auto;
     grid-template-rows: auto auto;
+    animation: all 1 ease-in-out; 
 }
 
 #mainTitle {
+    grid-row-start: 1;
     grid-column-start: 2;
     text-align: center;
 }
@@ -36,4 +38,9 @@ body {
 
 #titleMap {
     
+}
+
+#mainCharacter {
+    top: 200px;
+    left: 200px;
 }
