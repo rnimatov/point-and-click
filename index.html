@@ -10,21 +10,53 @@
 <body id="main">
     <h1 id="mainTitle"></h1>
     <div id="gameWindow">
-    <!-- foreground -->
+
+<!--dialog bar-->
+    <div id="dialogeBar" class="foreground">
+        <div id="setMainDialog"></div>
+        <img id="hero" class="foreground" src="img/character dialoge potret.png" alt="potret character">
+        <div id="mainCharacterSpeech" class="foreground speech-bubble">...</div>
+
+        <div id="counterSpeech" class="foreground speech-bubble"></div>
+        <img id="counterCharacter" class="foreground" src="img/counter character.png" alt="wizard">
+        <div id="brownbar"></div>
+    </div>
+
+     <!--Inventory-->
+     <div id="inventoryBox" class="foreground">
+        <p>Inventory</p>
+        <ul id="inventoryList">
+
+        </ul>
+    </div>
+    
+<!-- foreground -->
+    <div id="tree1" class="foreground">
+        <img id="tree" src="" alt="">
+    </div>
+
+
     <div id="door1" class="foreground"></div>
+    <div id="door2" class="foreground"></div>
+    <div id="statue" class="foreground"></div>
+
     <!--character  -->
         <div id="mainCharacter" class="character">
-            <img src="img/character kopiëren.jpg" alt="mc">
+            <img src="img/character kopiëren.png" alt="mc">
         </div>
     <!-- backrgound -->
     <div id="tilemap" class="backrgound">
         <img src="img/map point and click.jpg" alt="map 1">
     </div>
     </div>
-    <audio src="audio/Gibberish - Sound Effect_01.mp3" type="audio/mpeg" id="characterAudio">
+    <audio type="audio/mpeg" id="characterAudio">
         <source src="audio/Gibberish - Sound Effect_01.mp3" type="audio/mpeg">
     </audio>
 
+    <audio type="audio/mpeg" id="counterAudio">
+        <source src="audio/high pitch voice.mp3" type="audio/mpeg">
+    </audio>
+    
     <script src="js/index.js"></script>
 </body>
 

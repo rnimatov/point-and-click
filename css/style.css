@@ -39,20 +39,103 @@ body {
 }
 
 #tilemap {
-
+    
 }
 
 #mainCharacter {
-    top: 200px;
+    top: 0px;
     left: 200px;
     transition: all 1s ease-in-out; 
 }
 
 #door1 {
-    top: 40px;
-    left: 75px;
+    top: 53px;
+    left: 82px;
     width: 15px;
     height: 20px;
     background-color: blue;
 
+}
+
+#door2 {
+    top: 53px;
+    left: 158px;
+    width: 15px;
+    height: 20px;
+    background-color: blue;
+
+}
+
+.speech-bubble {
+    background: #ffffff;
+    border-radius: 60px;
+    color: #000;
+    padding: 5px 5px 5px 20px;
+    font-size: 12px;
+    opacity: 0;
+    width: 250px;
+    transition: all 1s ease-in-out;
+}
+
+#dialogeBar {
+    height: 64px;
+    bottom: 0px;
+}
+
+#setMainDialog {
+    position: relative;
+    height: 64px;
+    width: 800px;
+}
+#hero {
+    left: 0;
+    top: 0;
+}
+
+#mainCharacterSpeech {
+    left: 80px;
+    top: 0px;
+}
+
+#counterSpeech {
+    right: 80px;
+    top: 0px;
+}
+
+#counterCharacter {
+    top: 0px;
+    right: 0px;
+    opacity: 0;
+}
+
+#brownbar {
+    position: absolute;
+    height: 32px;
+    width: 800px;
+    background-color: #442c1c;
+    bottom: 0px;
+}
+
+#statue {
+    top: 381px;
+    left: 620px;
+    width: 32px;
+    height: 64px;
+    background: #ffffff;
+}
+
+#inventoryBox {
+        list-style-type: square;
+        padding: 0px;
+        margin: 0px 0px 0px 12px;
+        font-size: 12px;
+}
+#inventoryBox {
+    right: 10px;
+    top: 10px;
+    width: 180px;
+    height: 80px;
+    border: #fff 2px solid;
+    background-color: #442c1c;
+    padding: 10px;
 }
