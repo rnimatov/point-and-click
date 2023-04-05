@@ -49,6 +49,7 @@ body {
 }
 
 #door1 {
+    opacity: 0.5;
     top: 53px;
     left: 82px;
     width: 15px;
@@ -58,6 +59,7 @@ body {
 }
 
 #door2 {
+    opacity: 0.5;
     top: 53px;
     left: 158px;
     width: 15px;
@@ -117,10 +119,11 @@ body {
 }
 
 #statue {
-    top: 381px;
-    left: 620px;
-    width: 32px;
-    height: 64px;
+    opacity: 0.6;
+    top: 456px;
+    left: 554px;
+    width: 12px;
+    height: 12px;
     background: #ffffff;
 }
 
