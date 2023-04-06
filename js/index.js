@@ -24,7 +24,7 @@ gameWindow.onclick = function (e) {
         switch (e.target.id) {
             case "door1":
                 //something insert here
-                showSpeech(mainCharacterSpeech, characterAudio, "this is door one.<br> And it's locked dummy...");
+                showSpeech(mainCharacterSpeech, characterAudio, "this is door one.<br> And it's locked...");
                 break;
             case "door2":
                 //something insert here
@@ -32,10 +32,10 @@ gameWindow.onclick = function (e) {
                 break;
             case "statue":
                 //something insert here
-                showSpeech(mainCharacterSpeech, characterAudio, "What a borring statue...");
+                showSpeech(mainCharacterSpeech, characterAudio, "What a boring house...");
                 setTimeout(function () { counterCharacter.style.opacity = 1; }, 4 * sec);
-                setTimeout(showSpeech, 4 * sec, counterSpeech, counterAudio, "No you are borring..");
-                setTimeout(showSpeech, 8 * sec, mainCharacterSpeech, characterAudio, "Ow sorry I didn't know you could speak.");
+                setTimeout(showSpeech, 4 * sec, counterSpeech, counterAudio, "Nah mate..");
+                setTimeout(showSpeech, 8 * sec, mainCharacterSpeech, characterAudio, "Didn't know someone was home.");
                 break;
             default:
                 // do something when it doesn't have a case
